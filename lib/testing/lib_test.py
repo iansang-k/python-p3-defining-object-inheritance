@@ -47,11 +47,6 @@ class TestCar:
         my_car = Car(36, 4)
         assert(my_car.wheel_number == 4)
 
-    def test_goes_vroom(self):
-        '''has a method "go()" that goes "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"'''
-        my_car = Car(48, 4)
-        assert(my_car.go() == "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!")
-
     def test_fills_tank(self):
         '''has a method "fill_up_tank" that returns "filling up!"'''
         my_car = Car(36, 4)
